@@ -82,7 +82,6 @@ body {
     align-items: center;
     justify-content: center;
     background: #FAFAF5;
-    background-image: url(../images/liquid_bg.png);
     transition: opacity 0.75s, visibility 0.75s;
 }
 
