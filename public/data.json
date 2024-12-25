@@ -1,0 +1,583 @@
+{
+    "onlineShop": [
+        {
+          "id": 1,
+          "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops jacket",
+          "price": 109.95,
+          "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+          "category": "men's clothing",
+          "image": "https://media.istockphoto.com/id/1047448702/vector/black-mens-sweatshirt-template-with-sample-text-front-and-back-view-hoodie-for-branding-or.jpg?s=1024x1024&w=is&k=20&c=Z2ZXX7eBTJ__9qxsSb5E-n08pvigM-gagXVbazVDvOM=",
+          "rating": {
+            "rate": 3.9,
+            "count": 120
+          }
+        },
+        {
+          "id": 2,
+          "title": "Mens Casual Premium Slim Fit T-Shirts ",
+          "price": 22.3,
+          "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+          " ": "men's clothing",
+          "image": "https://media.istockphoto.com/id/1945302953/photo/front-and-back-views-of-a-man-wearing-a-black-oversized-t-shirt-with-blank-space-ideal-for-a.jpg?s=1024x1024&w=is&k=20&c=CCNEqr3uGuuKBcAjOiyV9xD7l2oBaNlfsKMjFGpRYSA=",
+          "rating": {
+            "rate": 4.1,
+            "count": 259
+          }
+        },
+        {
+          "id": 3,
+          "title": "Mens Cotton Jacket hoodies",
+          "price": 55.99,
+          "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+          "category": "men's clothing",
+          "image": "https://media.istockphoto.com/id/1175021535/vector/man-hoodie-or-front-and-back-of-white-men-hoody.jpg?s=1024x1024&w=is&k=20&c=p7MWqxV82RHjVbyThleF28JjOPLIH0YwMxVZbjLA0wo=",
+          "rating": {
+            "rate": 4.7,
+            "count": 500
+          }
+        },
+        {
+          "id": 4,
+          "title": "Mens Casual Slim Rolex Watch",
+          "price": 15999.00,
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "category": "men's clothing",
+          "image": "https://media.istockphoto.com/id/1145959508/photo/steel-wristwatch-on-black-background.jpg?s=1024x1024&w=is&k=20&c=bbn59kFTt0wFUzv3io27j1q5IyiYC8kyZxgRKQ6Dd3U=",
+          "rating": {
+            "rate": 2.1,
+            "count": 430
+          }
+        },
+        {
+          "id": 5,
+          "title": "Nike sneakers exclusive edition shoes",
+          "price": 695,
+          "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+          "category": "jewelery",
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "rating": {
+            "rate": 4.6,
+            "count": 400
+          }
+        },
+        {
+          "id": 6,
+          "title": "Adidas Gold Petite Micropave sneakers shoes",
+          "price": 168,
+          "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+          "category": "jewelery",
+          "image": "https://media.istockphoto.com/id/1688015574/photo/white-sneaker-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=1u15hbqY-mafD2d_hF51oc6ueahq5eMU5ZC2xSCHg7A=",
+          "rating": {
+            "rate": 3.9,
+            "count": 70
+          }
+        },
+        {
+          "id": 7,
+          "title": "White Gold Plated Princess earings jewelery",
+          "price": 9.99,
+          "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+          "category": "jewelery",
+          "image": "https://media.istockphoto.com/id/1289163992/photo/flowers-earrings-isolated.jpg?s=1024x1024&w=is&k=20&c=VilJoji0mIFI61pJ--GJkini6n0n3gLEcoCbmiBEmPE=",
+          "rating": {
+            "rate": 3,
+            "count": 400
+          }
+        },
+        {
+          "id": 8,
+          "title": "Pierced Owl Rose Gold Plated Stainless Steel Double earings jewelery",
+          "price": 10.99,
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": "jewelery",
+          "image": "https://media.istockphoto.com/id/1456549100/photo/elegant-jewelry-set-jewellery-set-with-gemstones-jewelry-accessories-collage-product-still.jpg?s=1024x1024&w=is&k=20&c=H0DRVW5u9-mwJnlYM_I54aWdgf6jTwLV7TO-GwiNsgE=",
+          "rating": {
+            "rate": 1.9,
+            "count": 100
+          }
+        },
+        {
+          "id": 9,
+          "title": "WD HeadPhones - USB 3.0 electronics gadgets",
+          "price": 64,
+          "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+          "category": "electronics",
+          "image": "https://media.istockphoto.com/id/1451237363/photo/3d-illustration.jpg?s=1024x1024&w=is&k=20&c=45il8hPQDPcLRcv1M9wPNE2ND_zWXprmy4ygwQCJIGU=",
+          "rating": {
+            "rate": 3.3,
+            "count": 203
+          }
+        },
+        {
+          "id": 10,
+          "title": "Gaming Proccessor SSD PLUS 1TB Internal SSD - rtx 4090 24-Gb electronics gadgets",
+          "price": 109,
+          "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+          "category": "electronics",
+          "image": "https://media.istockphoto.com/id/1314343964/photo/top-end-system-unit-for-gaming-computer-close-up.jpg?s=2048x2048&w=is&k=20&c=gz1quan2pGMzCMIYUfzfxCSGgCz0asnPNu0B3rclQTI=",
+          "rating": {
+            "rate": 2.9,
+            "count": 470
+          }
+        },
+        {
+          "id": 11,
+          "title": "Radeon Driver RX 550 Series 8-GB electronics gadgets",
+          "price": 109,
+          "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+          "category": "electronics",
+          "image": "https://images.unsplash.com/photo-1661347560937-729e531289a1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "rating": {
+            "rate": 4.8,
+            "count": 319
+          }
+        },
+        {
+          "id": 12,
+          "title": "Gaming Keyboard as Playstation 4 Portable External Hard Drive electronics gadgets",
+          "price": 114,
+          "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+          "category": "electronics",
+          "image": "https://media.istockphoto.com/id/1394294901/photo/desktop-with-professional-gaming-setup-in-neon-light.jpg?s=1024x1024&w=is&k=20&c=avsKUZAEeONHqrcsAuJN7SipFVdLl978h6ojee3AbD4=",
+          "rating": {
+            "rate": 4.8,
+            "count": 400
+          }
+        },
+        {
+          "id": 13,
+          "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) Monitor IPS Ultra-Thin electronics gadgets",
+          "price": 599,
+          "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+          "category": "electronics",
+          "image": "https://media.istockphoto.com/id/1386398416/photo/3d-rendering.jpg?s=1024x1024&w=is&k=20&c=VIk8b4F44DtaorVoZpfy_5nSZjPYnfx1FhI4crtLx9Y=",
+          "rating": {
+            "rate": 2.9,
+            "count": 250
+          }
+        },
+        {
+          "id": 14,
+          "title": "Samsung 240-Hz CHG90 Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED electronics gadgets",
+          "price": 999.99,
+          "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+          "category": "electronics",
+          "image": "https://media.istockphoto.com/id/1385966559/photo/3d-illustration.jpg?s=1024x1024&w=is&k=20&c=qD7H5kbX78pEyrh-oP2FHuogrU7hSSBXU_-wqgR-mkI=",
+          "rating": {
+            "rate": 2.2,
+            "count": 140
+          }
+        },
+        {
+          "id": 15,
+          "title": "Cougar Gaming Chair 3-in-1 Snowboard black naterial Winter Coatsel ectronics gadgets",
+          "price": 56.99,
+          "description": "Note:The Chair is US standard product, Please choose color as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://images.unsplash.com/photo-1619725002198-6a689b72f41d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "rating": {
+            "rate": 2.6,
+            "count": 235
+          }
+        },
+        {
+          "id": 16,
+          "title": "Microphone Ultra Quality and Removable Hooded Faux Leather Moto Color HDr-158 electronics gadgets",
+          "price": 29.95,
+          "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+          "category": "women's clothing",
+          "image": "https://media.istockphoto.com/id/1451776362/photo/microphone-in-a-professional-recording-or-radio-studio.jpg?s=1024x1024&w=is&k=20&c=a9pBOxsdcxRDDH46TvGp7DMC5muaseearn88ienPiyY=",
+          "rating": {
+            "rate": 2.9,
+            "count": 340
+          }
+        },
+
+          {
+            "id": 17,
+            "title": "Men's T-Shirt Clothes",
+            "price": 25.99,
+            "description": "A stylish and comfortable cotton t-shirt.",
+            "category": "Men's Clothes",
+            "image": "https://media.istockphoto.com/id/1605408573/photo/realistic-tshirt-mockup-blank-black-and-white-t-shirt-on-hanger-design-mockup-clear-plain.jpg?s=1024x1024&w=is&k=20&c=ba4PfvLkMMOXbZgRTelUHEXFSwOXE6Vtgg7FtYYvKzE="
+          },
+          {
+            "id": 18,
+            "title": "Men's Jeans Clothes",
+            "price": 49.99,
+            "description": "Durable and fashionable slim-fit jeans.",
+            "category": "Men's Clothes",
+            "image": "https://media.istockphoto.com/id/851435074/photo/blue-jeans-front-and-back-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=LHbPRfJD5MqSF5lf5ImfYJWWhaRLdHler0ffHoNxmGc="
+          },
+          {
+            "id": 19,
+            "title": "Men's Jacket Clothes",
+            "price": 89.99,
+            "description": "Warm and cozy jacket for winter.",
+            "category": "Men's Clothes",
+            "image": "https://media.istockphoto.com/id/2085125205/photo/buttoned-green-mens-jacket-insulated-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=RemCrRpNFjtSzsBUU0Fmo8Fwz0tYYnCldtD7WYY11HI="
+          },
+          {
+            "id": 20,
+            "title": "Men's Sweater Clothes",
+            "price": 59.99,
+            "description": "A soft sweater for chilly days.",
+            "category": "Men's Clothes",
+            "image": "https://media.istockphoto.com/id/1340905349/photo/oversized-sweatshirt-mock-up-template-in-front-and-back-views.jpg?s=2048x2048&w=is&k=20&c=nXCXBA_4toCk8g6rUyCIqQHuVDMVE7alz2SDkZJXXO8="
+          },
+          {
+            "id": 21,
+            "title": "Men's Shorts Clothes",
+            "price": 29.99,
+            "description": "Casual and comfortable shorts.",
+            "category": "Men's Clothes",
+            "image": "https://media.istockphoto.com/id/184139087/photo/cargo-shorts.jpg?s=1024x1024&w=is&k=20&c=wppDTYKneSfyYEiEGJPo175hTFV7cd0JsbLtDDaGV20="
+          },
+          {
+            "id": 22,
+            "title": "Men's Cap Clothes",
+            "price": 19.99,
+            "description": "Stylish cap to complete your outfit.",
+            "category": "Men's Clothes",
+            "image": "https://media.istockphoto.com/id/1973069110/vector/black-and-white-baseball-caps-mock-up-with-logo-in-gray-background-front-sides-for-branding.jpg?s=1024x1024&w=is&k=20&c=ye2Kg0K2QC7UcUropNyscNrzYI6AVz7z236BwbvVqPo="
+          },
+          {
+            "id": 23,
+            "title": "Men's Hoodie Clothes",
+            "price": 69.99,
+            "description": "A cozy hoodie with a modern design.",
+            "category": "Men's Clothes",
+            "image": "https://media.istockphoto.com/id/1324664646/photo/blank-hooded-sweatshirt-mockup-for-print.jpg?s=1024x1024&w=is&k=20&c=ka4UUmpRaagM0jF38wyeoCM4iI5W1lBPvCk6UGvQI_8="
+          },
+          {
+            "id": 24,
+            "title": "Men's Polo Shirt Clothes",
+            "price": 34.99,
+            "description": "A classic polo shirt for a smart casual look.",
+            "category": "Men's Clothes",
+            "image": "https://media.istockphoto.com/id/685860048/photo/black-polo-shirt-clothes.jpg?s=1024x1024&w=is&k=20&c=lU75IBfn-nW61CprV6YFIAL6O3tklb5ytqvxZaESxXU="
+          },
+          {
+            "id": 25,
+            "title": "Men's Formal Pants Clothes",
+            "price": 59.99,
+            "description": "Elegant pants for formal occasions.",
+            "category": "Men's Clothes",
+            "image": "https://media.istockphoto.com/id/1865542355/photo/white-classic-pants-on-hanger-mockup.jpg?s=1024x1024&w=is&k=20&c=IVgwxqh72yl7xycM50AefqsAMwrzpfrSTqvNscmCIYc="
+          },
+          {
+            "id": 26,
+            "title": "Men's Belt Clothes",
+            "price": 14.99,
+            "description": "Leather belt for a polished look.",
+            "category": "Men's Clothes",
+            "image": "https://media.istockphoto.com/id/932100486/photo/object-on-background.jpg?s=1024x1024&w=is&k=20&c=Rum7gnxRJgwVvUJLqo-FWFMtR2JrQngzLxQLjubbHhg="
+          },
+          {
+            "id": 27,
+            "title": "Running Sneakers Shoes Trainers",
+            "price": 99.99,
+            "description": "Lightweight running shoes for performance.",
+            "category": "Sneakers",
+            "image": "https://media.istockphoto.com/id/184336852/photo/sport-shoes.jpg?s=1024x1024&w=is&k=20&c=-f6B78wOWepNRjNmS1H546ImRq7jINjZJ-o3Mg2pHDo="
+          },
+          {
+            "id": 28,
+            "title": "Casual Sneakers Shoes Trainers",
+            "price": 59.99,
+            "description": "Everyday sneakers with a sleek design.",
+            "category": "Sneakers",
+            "image": "https://media.istockphoto.com/id/2151897648/photo/mens-sneakers-isolated.jpg?s=1024x1024&w=is&k=20&c=7n45YU4UOOAk071gsLpKovsfb74P38On-1SjQhcvOHI="
+          },
+          {
+            "id": 29,
+            "title": "Basketball Shoes Trainers",
+            "price": 120.00,
+            "description": "High-performance shoes for basketball players.",
+            "category": "Sneakers",
+            "image": "https://images.unsplash.com/photo-1699901232384-f1646fb2a8da?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 30,
+            "title": "Skate Sneakers Shoes Trainers",
+            "price": 75.99,
+            "description": "Durable skateboarding shoes with style.",
+            "category": "Sneakers",
+            "image": "https://images.unsplash.com/photo-1579446650032-86effeeb3389?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 31,
+            "title": "High-Top Sneakers Shoes Trainers",
+            "price": 89.99,
+            "description": "Trendy high-top sneakers for any occasion.",
+            "category": "Sneakers",
+            "image": "https://media.istockphoto.com/id/2045985316/photo/modern-casual-sneakers-on-gray-background-leather-trainers-on-big-sole-sport-and-streetwear.jpg?s=1024x1024&w=is&k=20&c=pbSJe-0BZz8YMzYc3EuU08dAzW_aaLL0mZrPFkZqVi8="
+          },
+          {
+            "id": 32,
+            "title": "Designer Sneakers Shoes Trainers",
+            "price": 199.99,
+            "description": "Premium sneakers for a luxurious look.",
+            "category": "Sneakers",
+            "image": "https://images.unsplash.com/photo-1715693268859-438b2136ef22?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 33,
+            "title": "Gym Sneakers Shoes Trainers",
+            "price": 79.99,
+            "description": "Comfortable sneakers for the gym.",
+            "category": "Sneakers",
+            "image": "https://media.istockphoto.com/id/1172968033/photo/running-shoes-on-white-background-sports-shoes.jpg?s=1024x1024&w=is&k=20&c=lt_2wgAuYaHZTlvOQLqbDuDrBBmfore_83saAL-HT2Q="
+          },
+          {
+            "id": 34,
+            "title": "Vintage Sneakers Shoes Trainers",
+            "price": 69.99,
+            "description": "Classic sneakers with a retro design.",
+            "category": "Sneakers",
+            "image": "https://media.istockphoto.com/id/1255191095/photo/sport-footwear-theme.jpg?s=1024x1024&w=is&k=20&c=CrCpBpKNjOv8QvS1OVXaOvJqa2TtjuRrFlnpWemfYo0="
+          },
+          {
+            "id": 35,
+            "title": "Trail Running Shoes Trainers",
+            "price": 110.00,
+            "description": "Durable shoes for outdoor trails.",
+            "category": "Sneakers",
+            "image": "https://media.istockphoto.com/id/1413086625/photo/mens-stylish-sneakers-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=6Sv_EotR7yPuVnvdPC-pNZVxW4zH89EhIo5DRRo9CZ8="
+          },
+          {
+            "id": 36,
+            "title": "Slip-On Nike Sneakers Shoes Trainers",
+            "price": 54.99,
+            "description": "Convenient slip-on sneakers for daily wear.",
+            "category": "Sneakers",
+            "image": "https://images.unsplash.com/photo-1698076808223-e7cf59358102?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 37,
+            "title": "Smartphone Apple Electronics Gadgets",
+            "price": 699.99,
+            "description": "Latest smartphone with cutting-edge features.",
+            "category": "Gadgets",
+            "image": "https://images.unsplash.com/photo-1727093493864-0bcbd16c7e6d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 38,
+            "title": "Wireless Earbuds Apple Electronics Gadgets",
+            "price": 149.99,
+            "description": "High-quality wireless earbuds with noise cancellation.",
+            "category": "Gadgets",
+            "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?q=80&w=1589&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 39,
+            "title": "Smartwatch Apple Black Electronics Gadgets",
+            "price": 199.99,
+            "description": "Feature-rich smartwatch with health tracking.",
+            "category": "Gadgets",
+            "image": "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 40,
+            "title": "Tablet Apple Ipad Electronics Gadgets",
+            "price": 399.99,
+            "description": "High-performance tablet for work and play.",
+            "category": "Gadgets",
+            "image": "https://images.unsplash.com/photo-1660100970784-a1cc183a91b7?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 41,
+            "title": "Bluetooth Speaker Electronics Gadgets",
+            "price": 79.99,
+            "description": "Portable speaker with excellent sound quality.",
+            "category": "Gadgets",
+            "image": "https://media.istockphoto.com/id/1485307296/photo/wireless-portable-bluetooth-speaker-isolated-on-white-background-red-bluetooth-speakers-small.jpg?s=1024x1024&w=is&k=20&c=9SrrYsPy6Wo2uHN7uYhJGUb7afKhrqUNzoJhJEfsBuE="
+          },
+          {
+            "id": 42,
+            "title": "Laptop Apple Mackbook Electronics Gadgets",
+            "price": 999.99,
+            "description": "High-performance laptop for all needs.",
+            "category": "Gadgets",
+            "image": "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 43,
+            "title": "Gaming Console Electronics Gadgets",
+            "price": 499.99,
+            "description": "The latest gaming console for endless fun.",
+            "category": "Gadgets",
+            "image": "https://images.unsplash.com/photo-1630512633843-043c3c6da96f?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 44,
+            "title": "Drone Electronics Gadgets",
+            "price": 299.99,
+            "description": "Easy-to-use drone with HD camera.",
+            "category": "Gadgets",
+            "image": "https://media.istockphoto.com/id/492683865/photo/drone-white-cloudy-dusk-sky.jpg?s=1024x1024&w=is&k=20&c=a3YfOSsDRyyr53JuDP8bKjmbNayvyjGZBVEoN8qHoig="
+          },
+          {
+            "id": 45,
+            "title": "VR Headset Electronics Gadgets",
+            "price": 349.99,
+            "description": "Immersive virtual reality experience.",
+            "category": "Gadgets",
+            "image": "https://images.unsplash.com/photo-1657734240363-356201c49b15?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          },
+          {
+            "id": 46,
+            "title": "Action Camera Electronics Gadgets",
+            "price": 249.99,
+            "description": "Rugged camera for adventure enthusiasts.",
+            "category": "Gadgets",
+            "image": "https://media.istockphoto.com/id/1713151852/photo/modern-black-digital-slr-camera-set-on-white-background.jpg?s=1024x1024&w=is&k=20&c=u2P66dVURDJiLLsF-fyqfJgl7ArmjzlFoJR75-LnwRg="
+          },
+
+          {
+            "id": 47,
+            "title": "Star wars Action Figure Toys",
+            "price": 19.99,
+            "description": "A collectible action figure for kids and enthusiasts.",
+            "category": "Toys",
+            "image": "https://media.istockphoto.com/id/475337380/photo/darth-vader-and-stormtroopers.jpg?s=1024x1024&w=is&k=20&c=rumu2TlaN8aw8Jw72-Z_rYCnV1gE6JeQB6UK3cmlkYQ="
+          },
+          {
+            "id": 48,
+            "title": "Building Blocks Toys",
+            "price": 29.99,
+            "description": "Colorful building blocks to boost creativity.",
+            "category": "Toys",
+            "image": "https://media.istockphoto.com/id/1413818070/photo/child-playing-with-colorful-toy-blocks.jpg?s=1024x1024&w=is&k=20&c=yCq4TBssyhwQFRsy77m1-dm8bmgwYKMFUrbDm-toA1w="
+          },
+          {
+            "id": 49,
+            "title": "RC Car Toys",
+            "price": 49.99,
+            "description": "Remote control car for endless fun.",
+            "category": "Toys",
+            "image": "https://media.istockphoto.com/id/1144881175/photo/racing-car-with-remote-control-isolated-background-3d-rendering.jpg?s=1024x1024&w=is&k=20&c=-EJ56onKsffxNS6T6GBk2EJOIQVyG5w9c1Jyu_kiSao="
+          },
+          {
+            "id": 50,
+            "title": "Dollhouse Toys",
+            "price": 59.99,
+            "description": "A miniature dollhouse with accessories.",
+            "category": "Toys",
+            "image": "https://media.istockphoto.com/id/466333918/photo/childs-doll-house-with-furniture.jpg?s=1024x1024&w=is&k=20&c=GclX6Vf_XoWv5pBItdJUu_-TAdLjk2AqkCJxJOAqQ4U="
+          },
+          {
+            "id": 51,
+            "title": "Puzzle Game Toys",
+            "price": 14.99,
+            "description": "Brain-teasing puzzles for kids and adults.",
+            "category": "Toys",
+            "image": "https://media.istockphoto.com/id/1496336725/photo/male-kid-playing-with-wooden-eco-friendly-alphabet-letters-board-on-table-top-view.jpg?s=1024x1024&w=is&k=20&c=LKLJw_VH14nFdgSH13M07KPGJEx__bFKBeq7QUiYUzc="
+          },
+          {
+            "id": 52,
+            "title": "Plush Teddy Bear Toys",
+            "price": 24.99,
+            "description": "Soft and cuddly teddy bear for kids.",
+            "category": "Toys",
+            "image": "https://media.istockphoto.com/id/499846323/photo/family-of-teddy-bears.jpg?s=2048x2048&w=is&k=20&c=jfVTiZHk_Wd0yoid8u72UGIXpp0fdkpwAzw2b9EPfXo="
+          },
+          {
+            "id": 53,
+            "title": "Toy Train Set Toys",
+            "price": 69.99,
+            "description": "Electric train set with tracks and accessories.",
+            "category": "Toys",
+            "image": "https://media.istockphoto.com/id/147244908/photo/toy-steam-train-and-caboose.jpg?s=1024x1024&w=is&k=20&c=j_k3N3WregX6Jda2OLL2w0iLzs3tzAq_PbncnHvtPXI="
+          },
+          {
+            "id": 54,
+            "title": "Superman Batman Toys",
+            "price": 39.99,
+            "description": "A learning laptop toy for toddlers.",
+            "category": "Toys",
+            "image": "https://media.istockphoto.com/id/458945985/photo/partners-against-crime.jpg?s=1024x1024&w=is&k=20&c=9e8vrR9GPP9oAzQWIeEVR4Y6GTOKXUCz_cbDrtorsSQ="
+          },
+          {
+            "id": 55,
+            "title": "Plasric Soldiers Toys",
+            "price": 9.99,
+            "description": "Plasric Soldiers playset with utensils in one box there are 20 soldiers.",
+            "category": "Toys",
+            "image": "https://media.istockphoto.com/id/1337223351/photo/metaphor-of-dead-plastic-toy-war-soldiers.jpg?s=1024x1024&w=is&k=20&c=d5-t5f8LbBxQ-x16qDLZKOE4x6qfPxX9asoTSdG5zEI="
+          },
+          {
+            "id": 56,
+            "title": "Superhero Marvel Toys",
+            "price": 12.99,
+            "description": "Superhero mask for roleplay and dress-up.",
+            "category": "Toys",
+            "image": "https://media.istockphoto.com/id/490609521/photo/super-hero-squad-toys-figurines-marvel-comics.jpg?s=1024x1024&w=is&k=20&c=itb_Knn9_cqu4qdbI9Fwl0AtchSoD3Uy9MlVGMlEgzo="
+          },
+          {
+            "id": 57,
+            "title": "Wooden Dining Table Furniture Mebel",
+            "price": 299.99,
+            "description": "Elegant wooden dining table for six.",
+            "category": "Furniture",
+            "image": "https://media.istockphoto.com/id/1357428297/photo/table-dining-table-round-dining-table.jpg?s=1024x1024&w=is&k=20&c=LYnfYJb2Y6XmGXbTG3hmgPWB_HlwE-XZx1mh2W3HUaI="
+          },
+          {
+            "id": 58,
+            "title": "Leather Sofa Set Furniture Mebel",
+            "price": 499.99,
+            "description": "Luxurious leather sofa set for your living room.",
+            "category": "Furniture",
+            "image": "https://media.istockphoto.com/id/1765352942/photo/set-of-five-views-of-an-orange-three-seater-sofa-with-back-cushions-two-furniture-rollers-on.jpg?s=1024x1024&w=is&k=20&c=AlkA8vcPFK4MIFx80wJ4K8AeQo_q_nnw8wANYNK2IAs="
+          },
+          {
+            "id": 59,
+            "title": "Office Desk Furniture Mebel",
+            "price": 149.99,
+            "description": "Ergonomic office desk with storage options.",
+            "category": "Furniture",
+            "image": "https://media.istockphoto.com/id/531618612/photo/simple-office-desk-office-desk-isolated.jpg?s=1024x1024&w=is&k=20&c=Xow-8VsoDVMoYFEEQWy1lPZ9GML3AfW0eosQXPCKuzA="
+          },
+          {
+            "id": 60,
+            "title": "Queen-Size Bed Furniture Mebel",
+            "price": 699.99,
+            "description": "Spacious and comfortable queen-size bed.",
+            "category": "Furniture",
+            "image": "https://media.istockphoto.com/id/640347130/photo/corner-convertible-sofa-bed-with-storage-space-upholstery-soft-white-fabric.jpg?s=1024x1024&w=is&k=20&c=Qk64p0q7LruLaCrWLqVOcCWqudLMhRdkaDcntxDFdoY="
+          },
+          {
+            "id": 61,
+            "title": "Bookshelf Furniture Mebel",
+            "price": 89.99,
+            "description": "Modern bookshelf with ample storage space.",
+            "category": "Furniture",
+            "image": "https://media.istockphoto.com/id/628480416/photo/empty-wooden-shelf.jpg?s=1024x1024&w=is&k=20&c=y6OYFrFv7A5hAc_mGeAo_GdnzPD-pJNXBgrH4YvMyQE="
+          },
+          {
+            "id": 62,
+            "title": "Coffee Table Furniture Mebel",
+            "price": 74.99,
+            "description": "Compact coffee table with a sleek design.",
+            "category": "Furniture",
+            "image": "https://media.istockphoto.com/id/1370514230/photo/round-wooden-table-in-the-kitchen.jpg?s=1024x1024&w=is&k=20&c=Ao_pjuzwBmidV2zNN6CTbJYk2Vd6zgXGuIxNXnkSPyQ="
+          },
+          {
+            "id": 63,
+            "title": "TV Stand Furniture Mebel",
+            "price": 199.99,
+            "description": "Stylish TV stand with multiple shelves.",
+            "category": "Furniture",
+            "image": "https://media.istockphoto.com/id/1129873464/photo/white-wooden-tv-console-mockup-near-concrete-wall.jpg?s=1024x1024&w=is&k=20&c=Rxa-ohDxPjc1zXU_597_F9Cez-1_FVThdeHSBqpkeUk="
+          },
+          {
+            "id": 64,
+            "title": "Recliner Chair Furniture Mebel",
+            "price": 249.99,
+            "description": "Comfortable recliner chair for relaxation.",
+            "category": "Furniture",
+            "image": "https://media.istockphoto.com/id/1731199266/photo/automatic-electric-adjustable-armchair.jpg?s=1024x1024&w=is&k=20&c=clHO3sOGA3z76lyuYDGT8IqqBKwq6dSXwPt7dNSJY24="
+          }
+
+        ]
+}

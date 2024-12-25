@@ -1,0 +1,1103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Fonts */
+    --body-font: 'Poppins',  sans-serif;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --serif-display: 'DM Serif Display', 'Georgia', serif;
+    --jost-text: 'Jost', 'Arial', sans-serif;
+  
+    /* Colors */
+    --primary-color: #FCE146;
+    --white-color: #e9eaec;
+    --dark-color: #292929;
+    --dark-color-lighten: #f2f5ff;
+    --shadow-color: rgba(41, 47, 54, 0.2);
+  
+    /* Background Colors */
+    --white-bg-color: #fff;
+    --dark-bg-color: #292929;
+    --color-btn: #000;
+  }
+  
+  .dark-mode {
+    /* Colors */
+    --primary-color: #cda274;
+    --secondary-color: #cda274;
+    --white-color: #fff;
+    --black-color: #000;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --refresh-color: #292929;
+  
+    /* Background Colors */
+    --white-bg-color: #292929;
+    --dark-bg-color: #fff;
+    --color-btn: #fff;
+  }
+
+
+body {
+    background-color: #fafaf5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    line-height: 1.2;
+    color: white;
+    transition: all 0.3s ease;
+
+  }
+
+.bg_black {
+    background-color: #292929;
+}
+
+
+
+.ahref_bg {
+    color: white !important;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #FAFAF5;
+    background-image: url(../images/liquid_bg.png);
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 2px solid #dddd;
+    border-top-color: rgb(128, 98, 0);
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+
+.loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(0turn);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.universal-btn {
+    transition: all 0.3s ease;
+}
+
+.universal-btn:hover {
+    background-color: #292929; 
+    color: white;
+}
+
+.universal-btn:active {
+    transform: scale(0.95);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+/*NAV BAR*/
+
+
+.main_header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    background-color: #FCE146;
+    box-shadow: -2px 4px 16px 3px rgba(44, 44, 44, 0.37);
+    z-index: 10;
+} 
+
+
+
+
+.main_header .container {
+    display: flex;
+    align-items: center;
+}
+
+
+.container {
+    position: relative;
+    width: 1420px;
+    margin: 0 auto;
+}
+
+.input__search {
+        width: 350px;
+        height: 50px;
+        padding: 10px 15px;
+        font-size: 15px;
+        border: 1px solid #c0bdbd; 
+        border-radius: 15px;
+        outline: none;
+        transition: all 0.3s ease;
+        right: 0;
+        margin: 15px 200px;
+        position: absolute;    
+}
+
+.icon__search{
+    right: 220px;
+    margin-top: 32px;
+    position: absolute;
+    color: #c0bdbd;
+
+}
+
+.banner__main {
+    margin: 10px 15px;
+    width: 120px;
+    position: absolute;
+}
+
+/* MODAL */
+.modal {
+    background-color: #FAFAF5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 30%;
+    left: 35%;
+    position: absolute;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000;
+}
+
+/* Form Styles */
+form {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.submit-button {
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #FCE146;
+}
+
+  .hidden {
+    display: none;
+  }
+
+  .firstName {
+    display: inline-block;
+    width: 175px;
+  } 
+  
+  .LastName {
+    right: 20px;
+    top: 117px;
+    position: absolute;
+    display: inline-block;
+    width: 175px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: 500;
+  }
+
+  .correct {
+    color: limegreen;
+    font-weight: 500;
+
+  }
+
+
+/* BUTTONS */
+
+.moon {
+    margin: 2px;
+    letter-spacing: 2px;        
+}   
+.sun {
+    margin: 2px;
+    letter-spacing: 2px;        
+}   
+
+.buttons {
+    gap: 10px;
+    display: inline-block;
+    margin: 17px ;
+    position: absolute;
+    right: 0;
+    
+}
+
+.btnSignIn {
+    background-color: black;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+
+.btnSignIn:hover {
+    background-color: #292929;
+    color: white;
+}
+
+.btnSignIn:active {
+    transform: scale(0.95);
+}
+
+
+/* BUTTONS MAIN PAGE */
+
+
+
+.main_buttons{
+    position: relative;
+    background: transparent;
+    padding: 12px 12px 12px 28px;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: 1px solid black;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+#basket_btn1{
+    border-radius: 15px;
+    right: 55px;
+    position: absolute;
+}
+
+
+
+#basket_btn1:hover a{
+    color: white;
+}
+
+.ahref_btn {
+    color: #000;
+}
+
+
+
+#lang_btn{
+    padding: 12px !important;
+    border-radius: 15px;
+    right: 178px;
+    position: absolute;
+}
+
+.main_buttons:hover {
+    background-color: #292929; 
+    color: white;
+}
+
+.main_buttons:active {
+    transform: scale(0.95);
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 20px;
+    opacity: 0.1;
+    
+}
+
+.icon_button {
+    left: 2px;
+    width: 25px;
+    top: 5px;
+    position: absolute;
+}
+
+.suggested{
+    margin: 15px 0 0 22px;
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*CARDS*/
+
+#data-container {
+    margin-top: 55px;
+    padding: 0 15px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 4rem;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.blog_items {
+    margin-top: 150px;
+    padding: 0 15px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.user__item2{
+    border: 1px solid white;
+    width: auto;
+    max-width: 400px;
+    background-color: var(--dark-color);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    height: 430px;
+    padding: 2rem 1.5rem;
+    overflow: hidden; /* Allow content overflow if needed */
+    box-shadow: 0px 5px 10px 2px var(--shadow-color);
+}
+
+
+.card__image {
+    border: 1.9px solid black;
+    border-radius: 10px;
+    width: 250px;
+    left: 25px;
+    height: 180px;
+    position: absolute;
+    filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, .4));
+}
+
+.card__data {
+    transform: translateY(13.2rem);
+    text-align: center;
+
+}
+
+.card__title {
+    font-size: var(--h1-font-size);
+    color: var(--primary-color);
+    margin-bottom: .5rem;
+    overflow: hidden;
+    height: 63px;
+}
+
+.card__price {
+    display: inline-block;
+    font-size: var(--h2-font-size);
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+
+}
+
+.card__description {
+    font-size: var(--small-font-size);
+    text-align: initial;
+    opacity: 0;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 1.25rem;
+}
+
+.card__button {
+    display: block;
+    width: max-content;
+    padding: 1.125rem 2rem;
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: .5rem;
+    font-weight: 600;
+    transition: .2s;
+    opacity: 0;
+}
+
+.card__button:hover {
+    box-shadow: 0 18px 40px -12px rgba(242, 162, 12, .35) ;
+}
+
+.card__image, 
+.card__data, 
+.card__title, 
+.card__description, 
+.card__price {
+    transition: .5s;
+}
+
+.user__item2:hover .card__image{
+    transform: translate(-8.5rem, -19.5rem) rotate(-20deg);
+}
+
+.user__item2:hover .card__data {
+    transform: translateY(2.8rem);
+}
+
+.user__item2:hover .card__title {
+    transform: translateX(-1rem) ;
+    margin-bottom: 0;
+}
+
+.user__item2:hover .card__price {
+    transform: translateX(-6.8rem) ;
+}
+
+.user__item2:hover .card__description,
+.user__item2:hover .card__button {
+    opacity: 1;
+    transition-delay: .2s;
+}
+  
+/* FOOTER */
+
+
+.footer {
+    background-image: url(../images/footer_yellow.png), url(../images/image_2024-12-08_21-54-50.png);
+    height: 500px;
+    margin-top: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 10px 0;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+
+.footer_nav_item {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
+
+.footer_nav_item a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.footer_socials {
+    cursor: pointer;
+    display: inline-block;
+    list-style: none;
+}
+
+.footer_social {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.footer_social a {
+    color: #fff;
+}
+
+.footer_text {
+    color: #797979;
+    font-size: 13px;
+}
+
+.footer__container {
+    position: absolute;
+    bottom: 20px;
+}
+
+.socials_footer{
+    bottom: 350px;
+    margin-left: 20px;
+}
+
+
+
+.footer__content {  
+    display: flex;
+    gap: 600px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer__section {
+    width: 45%; /
+  }
+  
+  .footer__list {
+    color: #000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer__heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer__list li {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .rightList {
+    color: white;
+  }
+
+/* show more btn */
+
+
+.show_more {
+    background-color: #d6d6d6;
+    color: black !important;
+    padding: 12px 15px;
+    border: none;
+    font-weight: bold;
+    width: 50%;
+    border-radius: 30px;
+    margin: 50px 0px 0 25%;
+    cursor: pointer;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.show_more:active {
+    transform: scale(0.95);
+}
+
+/* HIDDEN CLASS */
+
+.hidden {
+    display: none;
+}
+
+.bg_btn {
+    color: white;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+}
+
+.text_js {
+    color: white;
+}
+
+.ingput_bg {
+    color: white;
+    background-color: #292929;
+
+
+}
+
+/* LOGIN PAGE BUTTONS */
+.accounts {
+    margin: 2px 7px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.accounts_img {
+    padding: 5px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.accs {
+    text-align: center;
+}
+
+.input_bg_correct {
+    background-color: white;
+    border: 1px solid limegreen;
+}
+
+.input_bg_error {
+    background-color: white;
+    border: 1px solid red;
+}
+
+/* RESPONSIVE */
+
+/* For tablets (portrait and landscape) */
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .main_header {
+        height: 70px;
+    }
+
+    .input__search {
+        width: 100%;
+        margin: 15px 0;
+        right: auto;
+        position: relative;
+        z-index: 10; /* Ensure it is above other elements */
+    }
+
+    .icon__search {
+        width: 15px;  /* Adjust size */
+        height: 15px; /* Adjust size */
+        right: 485px;  /* Adjust positioning */
+        top: 50%;     /* Adjust vertical positioning */
+        transform: translateY(-50%);
+        margin-top: 0;
+        position: absolute;
+        z-index: 10;  /* Ensure it's above other elements */
+    }
+
+    .banner__main {
+        width: 100px;
+        position: relative;
+    }
+
+    .moon {
+        margin: 2px;
+        letter-spacing: 2px;        
+    }
+
+    .sun {
+        margin: 2px;
+        letter-spacing: 2px;        
+    }
+
+    .buttons {
+        display: inline-block;
+        margin: 17px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .btnSignIn {
+        font-size: 14px;
+    }
+
+    .modal-content {
+        max-width: 90%;
+    }
+
+    /* line buttons */
+
+    .main_buttons {
+        padding: 10px 8px 10px 25px;
+        border-radius: 15px;
+    }
+
+
+
+    #basket_btn1 {
+        right: 55px;
+        position: absolute;
+    }
+
+    .icon_button {
+        left: 0;
+        width: 25px;
+        top: 5px;
+        position: absolute;
+    }
+
+    #lang_btn {
+        padding: 10px !important;
+        right: 175px;
+        position: absolute;
+    }
+
+    /* Footer */
+    .footer {
+        background-image: url(../images/footer_yellow.png), url(../images/image_2024-12-08_21-54-50.png);
+        height: 350px;
+        margin-top: 80px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        padding: 10px 0;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+    }
+
+    .footer_nav_item a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer_socials {
+        cursor: pointer;
+        display: inline-block;
+        list-style: none;
+    }
+
+    .footer_social {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .footer_social a {
+        color: #fff;
+    }
+
+    .footer_nav_item {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+    .footer_text {
+        color: #797979;
+        font-size: 13px;
+    }
+
+    .footer__container {
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .socials_footer {
+        color: white;
+        bottom: 30px;
+        margin-left: 20px;
+        position: relative;  /* Add positioning to ensure visibility */
+        z-index: 10;  /* Ensure it appears above other elements */
+    }
+
+    .footer__content {  
+        display: flex;
+        gap: 500px;
+        margin-bottom: 10px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer__section {
+        width: 45%;
+    }
+
+    .footer__list {
+        color: #000;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer__heading {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .footer__list li {
+        font-size: 12px;
+        line-height: 1.4rem;
+    }
+
+    .rightList {
+        color: white;
+    }
+
+    /* Cards */
+    .user__item2 {
+        height: 400px;
+        padding: 1.5rem 1rem;
+    }
+
+    .card__title {
+        height: 52px;
+        overflow: hidden;
+        font-size: 1.25rem;
+    }
+
+    .card__price {
+        font-size: 1.2rem;
+    }
+
+    .card__description {
+        font-size: 0.9rem;
+    }
+
+    .card__button {
+        padding: 1rem 1.5rem;
+    }
+
+    .btnSignIn {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .show_more {
+        width: 70%;
+        text-align: center;
+        margin: 20px 0 0 15%;
+    }
+}
+
+
+/* For mobile phones (portrait and landscape) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .main_header {
+        height: 60px;
+    }
+
+    .main_buttons {
+        display: none;
+    }
+
+
+    .input__search {
+        font-size: 12px;
+        height: 38px;
+        margin-top: 0;
+        width: auto;
+    }
+
+    .icon__search {
+        font-size: 12px;
+        right: 0;
+        margin-right: 15px;
+    }
+
+    .input_icon {
+        position: relative;
+        height: 38px;
+        width: 150px;
+    }
+
+    .banner__main {
+        width: 80px;
+        position: relative;
+    }
+
+    .modal-content {
+        max-width: 90%;
+    }
+
+    .main_header {
+        position: relative;
+    }
+    
+    .btnSignIn {
+        margin-top: 90px;
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    /* MODAL */
+
+    .modal-content {
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        position: static;
+    }
+
+    .LastName {
+        width: auto;
+        position: static;
+    }
+    
+    .firstName {
+        width: auto;
+    }
+
+    /* CARDS */
+
+    .user__item2 {
+        height: 380px;
+        padding: 1rem;
+    }
+
+    .card__title {
+        font-size: 1rem;
+    }
+
+    .card__price {
+        font-size: 1.1rem;
+    }
+
+    .card__description {
+        font-size: 0.85rem;
+    }
+
+    .card__button {
+        padding: 1rem 1.5rem;
+    }
+
+    .main_buttons {
+        padding: 8px 18px;
+    }
+
+
+    .show_more {
+        width: 80%;
+        margin: 10px auto 30px 25px;
+        
+    }
+}
+

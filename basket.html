@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/basket.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My basket</title>
+</head>
+<body>
+    <header class="main_header">
+        <div class="container">
+            <div class="main_brand">
+                <a href="index.html">
+                    <img class="banner__main" src="images/banner.png" alt="Main Banner">
+                </a>
+            </div>
+            
+            <nav class="main_nav">
+                <ul class="main_nav__items">
+                    <a class="back_home" href="./product.html">Back to Home <i class="fa-solid fa-chevron-right"></i></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <span class="suggested">Basket</span>
+        <span class="item_number" id="item_number">3 items</span>
+        <div class="line"></div>
+
+        <!-- CARDS -->
+        <div class="basket__cards">
+            <div class="basket__card">
+                <div class="image-container">
+                    <img class="pro_image" src="./images/Nike Air Jordan shoes 👟👟 Premium quility.jpg" alt="Adidas">
+                </div>
+                <div class="text-container">
+                    <div id="basket_title" class="basket_title">Adidas Trainers</div>
+                </div>
+                <div class="description-container">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam fuga quo, quas voluptas aspernatur voluptate ipsum amet fugit eligendi doloremque eos illo alias, aperiam nostrum dolores, repellat accusamus officia!
+                </div>
+                <div class="footer-container">
+                    <div class="price">$154.88</div>
+                    <div class="delete universal-btn">delete</div>
+                </div>
+            </div>
+
+            <div class="basket__card">
+                <div class="image-container">
+                    <img class="pro_image" src="./images/Air jordan shoes.jpg" alt="Adidas">
+                </div>
+                <div class="text-container">
+                    <div id="basket_title" class="basket_title">Adidas Trainers</div>
+                </div>
+                <div class="description-container">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam fuga quo, quas voluptas aspernatur voluptate ipsum amet fugit eligendi doloremque eos illo alias, aperiam nostrum dolores, repellat accusamus officia!
+                </div>
+                <div class="footer-container">
+                    <div class="price">$154.88</div>
+                    <div class="delete universal-btn">delete</div>
+                </div>
+            </div>
+
+            <div class="basket__card">
+                <div class="image-container">
+                    <img class="pro_image" src="./images/Обувь Dior.jpg" alt="Adidas">
+                </div>
+                <div class="text-container">
+                    <div id="basket_title" class="basket_title">Adidas Trainers</div>
+                </div>
+                <div class="description-container">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam fuga quo, quas voluptas aspernatur voluptate ipsum amet fugit eligendi doloremque eos illo alias, aperiam nostrum dolores, repellat accusamus officia!
+                </div>
+                <div class="footer-container">
+                    <div class="price">$154.88</div>
+                    <div class="delete universal-btn">delete</div>
+                </div>
+            </div>
+
+            <div class="order_summary">
+                <h3>Order summary</h3>
+                <p>Subtotal: <span>$27.44</span></p>
+                <p>Shipping: <span>$3.99</span></p>
+                <p>Tax: <span>$2.00</span></p>
+                <p>Total: <span>$33.43</span></p>
+                <a href="./payment.html"><button class="payment_button universal-btn">Continue to payment</button></a>
+            </div>
+        </div>
+
+        </div>
+
+
+
+    <!-- JS -->
+    <script src="./js/request.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/mode.js"></script>
+</body>
+</html>

@@ -1,0 +1,669 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafaf5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--jost-text);
+    line-height: 1.2;
+    color: white;
+    transition: all 0.3s ease;
+  }
+
+  .universal-btn {
+    transition: all 0.3s ease;
+}
+
+.universal-btn:hover {
+    background-color: #292929; 
+    color: white;
+}
+
+.universal-btn:active {
+    transform: scale(0.95);
+}
+
+.line{
+    width: 46%;
+    height: 2px;
+    background-color: black;
+    margin-top: 90px;
+    opacity: 0.1;
+    position: absolute;
+}
+
+/*NAV BAR*/
+
+
+.main_header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    background-color: #FCE146;
+    box-shadow: -2px 4px 16px 3px rgba(44, 44, 44, 0.37);
+    z-index: 10;
+} 
+
+
+
+
+.main_header .container {
+    display: flex;
+    align-items: center;
+}
+
+
+.container {
+    position: relative;
+    width: 1420px;
+    margin: 0 auto;
+}
+
+.input__search {
+        width: 350px;
+        height: 50px;
+        padding: 10px 15px;
+        font-size: 15px;
+        border: 1px solid #c0bdbd; 
+        border-radius: 15px;
+        outline: none;
+        transition: all 0.3s ease;
+        right: 0;
+        margin: 15px 200px;
+        position: absolute;    
+}
+
+.icon__search{
+    right: 220px;
+    margin-top: 32px;
+    position: absolute;
+    color: #c0bdbd;
+
+}
+
+.banner__main {
+    margin: 10px 15px;
+    width: 120px;
+    position: absolute;
+}
+
+.back_home {
+    display: inline-block;
+    margin: 15px 30px;
+    position: absolute;
+    font-size: 13px;
+    border: 1px solid black;
+    opacity: 0.9;
+    padding: 15px;
+    border-radius: 15px;
+    right: 0;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+
+}
+
+.back_home:hover {
+    background-color: black; /* Yellow accent */
+    color: white;
+}
+
+.back_home:active {
+    transform: scale(0.95);
+}
+
+/* CARDS */
+
+
+
+.row {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    width: 50%;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    min-width: 300px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+input, button {
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 32%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ffcc00;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+.box {
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fefefe;
+}
+
+.box2 {
+    width: 49%;
+    height: 300px;
+}
+
+.payment-method img {
+    margin-right: 10px;
+}
+
+.summary {
+    text-align: right;
+}
+
+.total_pay {
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    right: 65px;
+    top: 170px;
+}
+
+.summary h3 {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.click {
+    top: 110px;
+    right: 568px;
+    position: absolute;
+}
+
+.product {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.product-details {
+    line-height: 22px;
+    flex: 1;
+}
+
+.footer {
+    
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    margin: 40px;
+}
+
+.save_btn {
+    margin-top: 10px;
+    left: 535px;
+    font-weight: 500;
+    width: 125px;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.input-btn {
+    position: relative;
+    margin-top: 80px;
+}
+
+.credit_btn {
+    top: 25px;
+    left: 160px;
+    position: absolute;
+    font-weight: 500;
+    width: 125px;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.address_btn {
+    right: 20px;
+    top: 10px;
+    position: absolute;
+    font-weight: 500;
+    width: 125px;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.order_btn {
+    width: 236px;
+    height: 43px;
+    border-radius: 10px;
+    background: #FCE146;
+    font-size: 12px;
+}
+
+.credit_card {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.card_bg {
+    margin-top: 35px;
+    background-color: #FCE146;
+    width: 45%;
+    border-radius: 8px;
+}
+
+.button-card {
+    top: 450px;
+    left: 370px;
+    width: 300px;
+    height: 80px;
+    padding: 15px 10px;
+    position: absolute;
+    border: 1px solid #808080;
+    border-radius: 10px;
+}
+
+.payment-method {
+    height: 180px;
+}
+
+.user_details {
+    height: 300px;
+}
+
+.bottom_items {
+    margin-top: 40px;
+    position: relative;
+}
+
+.total_pay {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-right: 12px;
+    font-weight: 700;
+
+}
+
+/* Modal */
+
+.modal-payment {
+    background-color: #FAFAF5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 30%;
+    left: 35%;
+    position: absolute;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-modal, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submit-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #FCE146;
+}
+
+.input_size {
+    width: 220px;
+}
+
+#cancel-btn-payment {
+    bottom: 100px;
+    background-color: #292929;
+    color: white;
+    transition: all 0.3s ease;
+
+}
+
+
+#cancel-btn-payment:hover {
+    background-color: #FCE146; 
+    color: black;
+}
+
+#cancel-btn-payment:active {
+    transform: scale(0.95);
+}
+
+
+
+.hidden {
+    display: none;
+  }
+    /* RESPONSIVE */
+
+/* For tablets (portrait and landscape) */
+@media only screen and (max-width: 1024px) {
+
+    .container {
+        width: 100%;
+    }
+
+    body {
+        font-size: 14px; /* Reduce font size for smaller devices */
+    }
+
+    /* Buttons */
+    .universal-btn {
+        font-size: 14px; /* Adjust button font size */
+    }
+
+    .back_home {
+        font-size: 12px; /* Adjust back home button size */
+        padding: 12px; /* Adjust padding */
+    }
+
+    .input__search {
+        width: 100%; /* Make the search bar full width */
+        font-size: 14px; /* Adjust font size */
+        padding: 12px 15px;
+        margin: 15px 0; /* Remove excessive margin */
+    }
+
+    .banner__main {
+        width: 100px; /* Adjust banner width */
+    }
+
+    /* Card Titles and Buttons */
+    h2 {
+        font-size: 18px; /* Adjust header font size */
+    }
+
+    h3 {
+        font-size: 14px; /* Adjust h3 font size */
+    }
+
+    input, button {
+        font-size: 14px; /* Adjust input and button font size */
+        padding: 12px; /* Adjust padding */
+        width: 32.6%; /* Adjust button and input width */
+    }
+
+    button {
+        font-size: 14px; /* Button font size */
+        height: 40px; /* Adjust button height */
+    }
+
+    .box {
+        padding: 15px; /* Adjust padding for box */
+    }
+
+    .box2 {
+        width: 100%; /* Make box2 full width */
+        height: 300px; /* Adjust height */
+    }
+
+    .click {
+        top: 100px;
+        right: 285px;
+        position: absolute;
+    }
+
+    .summary {
+        font-size: 14px; /* Adjust font size for summary */
+    }
+
+    .total_pay {
+        font-size: 18px; /* Adjust total pay font size */
+    }
+
+    .product {
+        font-size: 14px; /* Adjust product font size */
+    }
+
+    .product img {
+        width: 80px; /* Adjust image size */
+    }
+
+    .footer {
+        font-size: 12px; /* Adjust footer font size */
+    }
+
+    .address_btn{
+        font-size: 14px; /* Adjust button font sizes */
+        width: 23%; /* Make buttons full width */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .save_btn {
+        margin: 0;
+        left: 18rem;
+        padding: 5px;
+        width: 10%;
+    }
+
+    .line3{
+        display: none;
+    }
+        
+    .input-btn {
+        margin-top: 50px; /* Adjust input button margin */
+    }
+
+    .button-card {
+        position: absolute;
+        left: 25px;
+        margin-top: 80px;
+        width: 250px; /* Adjust button card size */
+        height: 80px; /* Adjust height */
+
+    }
+
+    .credit_btn {
+        position: absolute;
+        left: 110px;
+    }
+
+    .payment-method {
+        height: 250px;
+        font-size: 14px; /* Adjust payment method font size */
+    }
+
+
+    .user_details {
+        font-size: 14px; /* Adjust user details font size */
+    }
+
+    .modal-content {
+        width: 80%; /* Make modal content width responsive */
+    }
+
+    .input-modal, textarea {
+        font-size: 14px; /* Adjust input and textarea font size */
+    }
+
+    .submit-button {
+        font-size: 14px; /* Adjust submit button font size */
+        padding: 12px; /* Adjust padding */
+    }
+
+    #cancel-btn-payment {
+        font-size: 14px; /* Adjust cancel button font size */
+        padding: 12px; /* Adjust padding */
+    }
+
+    .card_bg {
+        width: auto;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* RECIPIENT */
+    input {
+        width: 100%;
+    }
+
+
+    .save_btn {
+        position: absolute;
+        width: 21%;
+        left: 14.6rem;
+    }
+
+    .user_details {
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+
+    /* ORDER CHECK */
+    .total_pay {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .click {
+        top: 0;
+        margin-top: 2.5rem;
+        left: 105px;
+    }
+
+    .box {
+        position: relative;
+    }
+
+    .order_btn {
+        right: 0;
+        position: absolute;
+    }
+
+    /*PAYMENT METHOD*/
+
+    .payment-method {
+        position: relative;
+    }
+
+    .button-card {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        
+    }
+
+    .card_bg {
+        left: 0;
+        position: absolute;
+    }
+
+    .modal-content {
+        position: static;
+        width: 100%;
+        height: 100vh;
+    }
+
+    /* DELIVER*/
+
+    .box2 {
+        display: none;
+    }
+
+
+}
+
+    
+    
+

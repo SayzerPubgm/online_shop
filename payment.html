@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/payment.css">
+    <title>Payment page</title>
+</head>
+<body>
+    <!-- MAV BAR -->
+    <header class="main_header">
+        
+        <div class="container">
+            <div class="main_brand">
+                <a href="index.html">
+                    <img class="banner__main" src="images/banner.png" alt="Main Banner">
+                </a>
+            </div>
+            
+            <nav class="main_nav ">
+                <ul class="main_nav__items">
+                    <a class="back_home" href="./basket.html">Back to Home <i class="fa-solid fa-chevron-right"></i></a>
+                 </ul>
+            </nav>
+        </div>
+        </header>
+
+    <!-- CARDS PAYMENT -->
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="box user_details">
+                    <h2>Recipient</h2>
+                    
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+
+                    <div class="line"></div>
+
+                    <input type="tel" placeholder="Phone number">
+                    <p style="font-size: 12px;">By adding an receiver, you accept the terms of the User agreement and consent to the processing of personal data according to the Privacy policy</p>
+                    <button class="save_btn universal-btn">Save</button>
+                    <div class="input-btn">
+                        <h2>Home address </h2>
+                        <span>choose your location</span>
+                        <button class="address_btn universal-btn">Add</button>
+                    </div>
+                </div>
+                <div class="box payment-method">
+                    <h2>Payment method</h2>
+                    <div class="card_bg">
+                        <img src="./images/Visa.png" alt="Visa">
+                        <img src="./images/PayPal.png" alt="PayPal">
+                        <img src="./images/MasterCard.png" alt="Master Card">
+                        <img src="./images/Apple Pay.png" alt="Apple Pay">
+                    </div>
+                    <div class="button-card">
+                    <img class="credit_card" src="./images/Credit Card.png" alt="credit card">
+                    <span style="font-size: 14px; position: absolute; top: 55px; left: 10px;">Add my card</span>
+                    <button class="credit_btn universal-btn">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="box summary">
+                    <h4 class="total_pay">total payment: 9.99$</h4>
+                    <h2 style="text-align: left;">Online</h2>
+                    <h3>Delivery: <span>Free</span></h3> <img class="click" src="./images/click.png" alt="tick">
+                    <h3>Item: <span>2</span></h3>
+                    <h3>Price: <span>8.99$</span></h3>
+                    <h3>Tax: <span>2.00$</span></h3>
+                    <h3>Total: <span>9.99$</span></h3>
+                    <button class="order_btn universal-btn">Order Product</button>
+                    <p class="line3" style="opacity: 0.6;">-----------------------------------------------------------------------------------------------------</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            
+            <div class="column">
+                
+                <div class="box box2">
+                    <h2 style="display: inline-block;">Delivery</h2>
+                    <span>1 of 1</span>
+                    <div class="product" >
+                        <div style="margin-top: 150px; left: 25px;" class="line"></div>
+                        <img style="width: 160px;" src="./images/jordan.jpg" alt="Product">
+                        <div class="product-details">
+                            <p style="font-weight: 600; opacity: 0.5; font-size: 16px;">8.99$, Size: 44</p>
+                            <h3 style="font-size: 15px; font-weight: bold;">NIKE Men's Court Vision Sneakers</h3>
+                            <p style="font-size: 13px; opacity: 0.5;">NIKE Mens Court Vision Sneakers FQ8075133 Sail White Size 44 are stylish and functional shoes that will be a great addition to your wardrobe.</p>
+                        </div>
+                        <div>
+                            
+                            <input type="number" value="1" style="width: 50px;">
+                        </div>
+                    </div>
+                    <div class="bottom_items">
+                       <h1 style="font-size: 15px; font-weight: 500;">Delivery:</h1>
+                       <h1 style="font-size: 15px;">To pay:</h1>
+                       <h1 style="font-size: 15px; font-weight: 500; position: absolute; right: 20px; top: 0;">free </h1><img style="top: -4px; right: 0; position: absolute;" src="./images/click.png" alt="tick">
+                       <h1 style="font-size: 15px; position: absolute; right: 10px; top: 20px;">8.99$</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            ProOnline || all rights reserved since 2024
+        </div>
+    </div>
+
+    <!-- MODAL -->
+
+    <div class="modal-container">
+        <div id="contactModal" class="modal-payment hidden">
+            <div class="modal-content">
+                <span id="closeModal" class="close">&times;</span>
+                <h2 style="color: black;">Add Your New Card</h2>
+                <form id="payment-modal">
+                    <input class="input-modal" type="number" id="card_number" name="card_number" placeholder="card number" required>
+                    
+                    <input class="input-modal" type="text" id="card_name" name="card_name" placeholder="card name" required>
+                    
+                    <input class="input-modal input_size" type="number" id="cvc_code" name="cvc_code" placeholder="expiration date mm/yy" required>
+                    <input class="input-modal input_size" type="number" id="cvc_code" name="cvc_code" placeholder="CVC code 000" required>
+                    
+                    <button type="submit" id="cancel-btn-payment" class="submit-button universal-btn">Cancel</button>
+                    <button type="submit" id="add-btn-payment" class="submit-button universal-btn">Add</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JS -->
+
+    <script>
+        const creditBtn = document.querySelector('.credit_btn')
+const modalPay = document.querySelector('.modal-payment');
+const closeModalButton = document.querySelector('#closeModal');
+const cancelBtn = document.querySelector('#cancel-btn-payment');
+creditBtn.addEventListener('click', () => {
+modalPay.classList.remove('hidden')
+})
+
+window.addEventListener('click', (e) => {
+if (e.target === modalPay) {
+modalPay.classList.add('hidden')
+    }
+});
+
+closeModalButton.addEventListener('click', () => {
+    modalPay.classList.add('hidden')
+});
+
+cancelBtn.addEventListener('click', () => {
+    modalPay.classList.add('hidden')
+});
+
+    </script>
+    <script src="./js/mode.js"></script>
+</body>
+</html>

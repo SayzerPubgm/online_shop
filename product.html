@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Product details</title>
+</head>
+<body>
+
+    <header class="main_header">
+        
+        <div class="container">
+
+
+            <div class="main_brand">
+                <a href="./index.html">
+                    <img class="banner__main" src="./images/banner.png" alt="Main Banner">
+                </a>
+            </div>
+            
+            <nav class="main_nav ">
+         
+                <div id="back-home-btn">
+                    <ul class="main_nav__items">
+                        <a class="back_home" href="./index.html">Back to Home <i class="fa-solid fa-chevron-right"></i></a>
+                     </ul>
+                </div>
+            </nav>
+        </div>
+        </header>
+    
+        <div class="container">
+            <span class="suggested" >Your Product</span>
+            <a class="basket_css" href="./basket.html"> <button class="main_buttons universal-btn"  id="basket_btn2"><img class="icon_button" src="./images/basket_yellow.png" alt="location img">Basket</button></a>
+            <button class="main_buttons universal-btn"  id="supportBtn"><i class="fa-solid fa-headset spticon"></i></button> <h1 class="support__text" >support</h1>
+            <button style="padding: 10px;" class="main_buttons"  id="lang_btn"><img id="eng" src="./images/language English.png" alt="language"></button> <h1 class="lang__text" >EN</h1>
+            <div class="line">
+            
+    
+        </div>
+        </div>
+            <!-- Contact Modal -->
+            <div class="modal-container">
+                <div id="contactModal" class="modal hidden">
+                    <div class="modal-content">
+                        <span id="closeModal" class="close">&times;</span>
+                        <h2>Contact Us</h2>
+                        <form id="contactForm">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name..." required>
+                            
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your email..." required>
+                            
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+                            
+                            <button type="submit" class="submit-button universal-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        <!--Product detail-->
+        <div class="container cont">
+            <section id="pro_images" class="pro_images"> 
+                <div class="parent_cloth">
+        
+                    <div class="pro_item">
+                        <div class="pro_image">
+                            <img src="./images/MainProduct.png" alt="Main img">
+                        </div>
+                        <div class="pro_info">
+                            <div class="pro_info_main">
+                                <span class="pro_item_author"><i class="fa fa-user"></i> Admin post</span>
+                                <span class="pro_item_date"><i class="fa fa-calendar"></i> April 8th 2024</span>
+                            </div>
+                            <h5 class="pro_title">About Art</h5>
+                            <p class="pro_description">
+                                Art expresses emotions, reflects culture, evolves over time, includes various forms, inspires creativity, and fosters communication across diverse societies...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CARDS api card shu yerdan boshlanishi kerak-->
+        
+            <div class="product_details" id="product_details">
+                <p id="detail-p">
+                    MAINALUN Fashion Sneakers for Men and Women – Preppy Sports Casual Shoes, Spring/Fall All-Season, Lace-up Closure, Solid Color, Low Top, PU Upper, Fabric Inner, PVC Sole, Fabric Insole, Round Toe – Versatile Increased Thick Sole Footwear
+                </p>
+                <h6 class="detail-rating">5.6K+ sold |</h6>
+                <h1 class="priceText">Price</h1>
+                <div class="line2"></div>
+                <h4 id="price">7.99$ or 89 000 so'm</h4> 
+
+
+                    <!-- Card shu yergacha bolishi kerak -->
+
+                <h4 id="discount">5$ or 42 000 so'm</h4>
+        
+                <h4>Quantity:</h4>
+                <div class="dropdown">
+                    <select id="numberDropdown">
+                        <option value="1">1</option>
+                    </select>
+                </div>
+        
+                <h5 class="color">Color: Black</h5>
+                <h5 class="weight">Weight: 1.2kg</h5>
+        
+                <div class="pro_item_small">
+                    <div class="pro_image_small">
+                        <img src="./images/black_example.png" alt="Black sneaker example">
+                    </div>
+                    <div class="pro_info_small">
+                        <h5 class="pro_title_small">Black</h5>
+                    </div>
+                </div>
+        
+                <div class="pro_item_small white-example">
+                    <div class="pro_image_small">
+                        <img src="./images/white_example.png" alt="White sneaker example">
+                    </div>
+                    <div class="pro_info_small">
+                        <h5 class="pro_title_small">White</h5>
+                    </div>
+                </div>
+        
+                <div class="size_btn">
+                    <button class="size-btn universal-btn">M</button>
+                    <button class="size-btn universal-btn">L</button>
+                    <button class="size-btn universal-btn">XL</button>
+                    <button class="size-btn universal-btn">XLL</button>
+                    <button class="size-btn universal-btn">XLLL</button>
+                </div>
+        
+                <button id="addCard-btn">
+                    <span class="text_basket-btn">Add to Basket</span> Discount 35%
+                </button>
+            </div>
+        </div>
+        
+
+           <div class="container vagoon">
+            <!-- CARDS -->
+        <section id="pro_cards" class="pro_cards">
+                <div class="procards" id="#procards">
+                        
+                </div>
+            </section>
+    
+            <div id="data-container"></div> 
+        <button class="show_more" id="show_more">show more</button>
+
+
+        
+
+
+           </div>
+
+
+           
+           <!--JS -->
+        <script src="./js/extraCard.js"></script> 
+</body>
+</html>

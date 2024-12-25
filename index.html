@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrOnline.com</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="x-icon" href="./images/avatar.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+
+
+    <!--Header part-->
+    <header class="main_header">
+        
+        <div class="container">
+            <div class="main_brand">
+                <a href="index.html">
+                    <img class="banner__main" src="images/banner.png" alt="Main Banner">
+                </a>
+            </div>
+            
+            <nav class="main_nav ">
+                <!-- LOADER  -->
+                <div class="loader ">
+                    <img src="./images/banner.png" alt="intro banner">
+                    <h6>Loading...</h6>
+                </div>
+
+                <form class="input_icon">
+                    <input class="input__search" name="search" type="text" placeholder="Search" autocomplete="off">
+                    <i class="fa-solid fa-magnifying-glass  icon__search "></i>
+                </form>
+                
+                <ul class="main_nav__items">
+                   
+                   <div class="buttons"> 
+                    <button type="button" class="btnSignIn " id="btnSignIn">Sign In</button>
+                    <button type="button" class="btnSignIn " id="dark-btn"><i class="fa-solid fa-moon  moon"></i>on!</button>
+                    <button type="button" class="btnSignIn hidden " id="light-btn"><i class="fa-solid fa-sun  sun"></i>off!</button>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        </header>
+
+
+    <!-- Main Home -->
+
+
+    <!-- MODAL -->
+
+    <div class="modal-container">
+        <div id="contactModal" class="modal hidden">
+            <div class="modal-content">
+                <span id="closeModal" class="close">&times;</span>
+                <h2 style="color: black; padding: 15px 0;">sign in</h2>
+                <form id="sign-in-form">
+                    <input type="text" class="email-phone " id="email-phone" name="available_email" placeholder="Enter email" required>
+                    <h6 id="warning-emph"></h6>
+                    <input type="text" id="password" name="available_password" placeholder="Enter password.." required>
+                    <button id="continue_btn" type="submit" class="submit-button universal-btn">Continue</button>
+
+                    <div class="accs">
+                        <button class=" accounts" id="apple_acc"><img class="accounts_img "  src="./images/Apple Logo.png" alt="appple account"></button>
+                        <button class=" accounts" id="twitter_acc"><img class="accounts_img " src="./images/Twitter.png" alt="Twitter account"></button>
+                        <button class=" accounts" id="facebook_acc"><img class="accounts_img "  src="./images/Facebook.png" alt="Facebook account"></button>
+                        <button class="accounts" id="google_acc"><img class="accounts_img " src="./images/Google.png" alt="Google account"></button>
+                    </div>
+                    
+                    <button id="create_account" class="submit-button universal-btn">Create an account</button>
+                    <a style="text-align: center; color: black; font-size: 14px;"  href="#">need help?</a>
+                    <p style="text-align: center; font-size: 14px; opacity: 0.5;" >By using this site, you automatically create or use an existing account on PrOnline, agree to the processing of personal data and accept the terms PrOnline User Agreement. Show More</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal register -->
+    <div class="modal-container">
+        <div id="register__modal" class="modal hidden">
+            <div class="modal-content">
+                <span id="closeModal2" class="close">&times;</span>
+                <h2 style="color: black; padding: 15px 0;">Register</h2>
+                <form id="register-form">
+                    <label for="name">First Name</label>
+                    <input class="firstName" style="margin: 0;" type="text" id="name" name="name" placeholder=" First Name" required>
+
+                    <label style="position: absolute; right: 110px;" for="name">Last Name</label>
+                    <input  class="LastName" style="margin: 0;" type="text" id="surname" name="name" placeholder=" Last Name" required>
+                    
+                    <label for="email">Email</label>
+                    <input style="margin: 0;" type="email" id="email" name="email" placeholder="Your email..." required>
+                    <h6 class="warning-email" id="warning-email"></h6>
+
+                    <label for="email">Create Password</label>
+                    <input style="margin: 0;" type="password" id="created-password" name="password" placeholder="password" required>
+                    <h6 class="warning" id="warning"></h6>
+                    <input style="margin: 0;" type="password" id="confirm-password" name="password" placeholder="confirm password" required>
+                    <h6 id="warning-confirm"></h6>
+                    
+                    <button type="submit" id="log-in" class="submit-button universal-btn">Log in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <!-- ABOVE LINE -->
+    <div class="container">
+
+        <button style="padding: 10px;" class="main_buttons button popular_btn" id="popular_btn"> recent products</button>
+        <button class="main_buttons button"  id="top_btn">top products   <img class="icon_button" src="./images/top_fire.ico" alt="top_products img"></button>
+        <button style="padding: 10px;" class="main_buttons button"  id="lang_btn">EN</button>
+        <button class="main_buttons button"  id="basket_btn1"><img class="icon_button" src="./images/basket_black.ico" alt="Basket img"><a class="ahref_btn" style="text-decoration: none;" href="./basket.html">My Basket</a></button>
+        <div class="line"></div>
+        <span class="suggested" >Suggested</span>
+
+        <!-- CARDS -->
+
+        <section id="my_blog" class="my_blog">
+            <div class="blog_items"> 
+                
+            </div>
+        </section>
+
+        
+        <div id="data-container"></div> 
+
+        <button class="show_more" id="show_more">show more</button>
+
+      
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="footer container">
+    
+            <div class="container footer__container">
+
+                <div class="footer__content">
+                    <!-- Left List -->
+                    <div class="footer__section">
+                      <ul class="footer__list rightList">
+                        <li class="footer__heading">Shop Features</li>
+                        <li>Mobile-Friendly Interface
+                        </li>
+                        <li>Secure Payments
+                        </li>
+                        <li>Shipping & Delivery Tracking</li>
+                        <li>Wishlist & Favorites</li>
+                        <li>Order History</li>
+                        <li>Online Shopping</li>
+                        <li>Reseach Discount</li>
+                      </ul>
+                    </div>
+                    <!-- Right List -->
+                    <div class="footer__section">
+                      <ul class="footer__list">
+                        <li class="footer__heading">Marketing Tools
+                        </li>
+                        <li>Design</li>
+                        <li>Prototyping</li>
+                        <li>Email Newsletters</li>
+                        <li>Design Systems</li>
+                        <li>Social Media Links
+                        </li>
+                        <li>Design Process</li>
+                        <li>Promotions & Discounts
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                
+            <div class="socials_footer">
+                <ul class="footer_socials">
+                    <li class="footer_social">
+                        <a href="https://instagram.com/online_shop_products_">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                 </ul>
+                 
+                 <ul class="footer_socials">
+                    <li class="footer_social">
+                        <a href="https://www.instagram.com/kamo1ov_kr/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                 </ul>
+                 <ul class="footer_socials">
+                    <li class="footer_social">
+                        <a href="http://www.youtube.com/@Online_shopping_products_optom">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                 </ul>
+                 
+              
+                 <ul class="footer_socials">
+                    <li class="footer_social">
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                 </ul>
+            </div>
+                
+            
+             
+
+             <p class="footer_text container">Copyright 2024 All rights reserved | PrOnline.com 245810 </p>
+             
+ 
+
+            </div>
+
+            <!-- Overlay -->
+            <div class="overlay hidden" id="overlay">
+                <div class="lds-ring">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+    </footer>
+
+    
+
+
+        <!-- JS -->
+         
+        <script src="./js/request.js"></script>
+        <script src="./js/filter.js"></script>
+        <script src="./js/mode.js"></script>
+        <script src="./js/app.js"></script>
+        
+
+</body>
+</html>
